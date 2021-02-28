@@ -1,6 +1,7 @@
 {
   "name": "trial",
   "version": "1.0.0",
+  "homepage": "http://paulsharpe577.github.io/SEN_success",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +12,9 @@
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
     "postinstall": "webpack",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -p",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -32,5 +35,8 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "webpack": "^3.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
