@@ -280,16 +280,7 @@ function HomePage() {
              
                 <div className="col-xl-7 pb-2">
                   <p className="card-text">
-                    <i class="fas fa-quote-left"></i> While at Bristol Free
-                    School, Jason supported my son, Brendan (Year 8 - 9) who has
-                    autism. Jason was an excellent teacher - he successfully
-                    trod that very fine line between being friendly and
-                    supportive, while also holding students to account for their
-                    work. Brendan has the greatest respect for Jason, who
-                    encouraged him to deliver work that significantly exceeded
-                    the targets set and expected from him. Jason has continued
-                    to tutor Brendan since leading BFS, so we are grateful to
-                    continue to benefit from Jason's talent for teaching.{" "}
+                    <i class="fas fa-quote-left"></i>{" "} My 15-year-old son has an EHCP and I was completely lost as to what he could / should be doing post-GCSE.  Jason's advice was priceless - he identified a number of opportunities that had never occurred to me but which were an ideal match for my son's specific needs.  I'm not yet sure where my son will go, but I know that he's able to make a much more informed choice about his future thanks to Jason's input.{" "}
                     <i class="fas fa-quote-right"></i>
                   </p>
                 </div>

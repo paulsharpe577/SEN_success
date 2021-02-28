@@ -232,13 +232,14 @@ fieldset[disabled] .btn-xl.active {
     color: white !important;
 }
 
+
+
 @media(min-width:768px) {
     
      .logo{
   width: 10%;
   height: auto;
     }
-    
     
     .navbar-default {
         padding: 25px 0;
@@ -353,6 +354,11 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
+
+
+
+
+
 
 @media(min-width:768px) {
     section {
@@ -659,7 +665,7 @@ section h3.section-subheading {
 
 @media(min-width:1200px) {
     
-         .logo{
+  .logo{
   width:45%;
   height:auto;
   
@@ -1025,3 +1031,12 @@ padding-bottom: 40px;
     font-size: 20px;
     font-weight: bold;
 }
+
+@media screen and (max-height: 800px) {
+  .logo{
+  width:33%;
+  height:auto;
+    
+  }
+}
+
