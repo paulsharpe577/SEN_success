@@ -12,7 +12,7 @@ function HomePage() {
         <header>
           <div className="container">
             <div className="intro-text">
-              <div className="intro-heading">SEN Success</div>
+              <div className="intro-heading"><img className="logo" src="https://i.postimg.cc/7LSjQ0Xh/IMG-0022.png" alt="" width="250" height="250" /></div>
               <div className="intro-lead-in">
                 Empowering you to take the next step post secondary education
               </div>
@@ -61,7 +61,7 @@ function HomePage() {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
-                <h2 className="section-heading">A bit about me</h2>
+                <h2 className="section-heading">A bit about me...</h2>
                 <p className="squiggle">~</p>
               </div>
             </div>
@@ -124,16 +124,18 @@ function HomePage() {
                   <p className="squiggle">~</p>
                 </h2>
 
-                <h3 className="section-heading">SEN Next Step Package</h3>
+                <h3 id="next-step" className="section-heading">SEN Next Step Package</h3>
 
                 <h3 className="text-muted">
                   My aim over the course of 3 consultations will be to
-                  understand your child’s needs, empower you with information
-                  and help to reinforce your decision for your SEN child. Each
+                  <strong> understand</strong> your child’s needs, <strong>empower</strong> you with information
+                  and help to <strong>reinforce</strong> your decision for your SEN child. Each
                   consultation will last 1 hour online.
                   <br /> <br />
                   <i>
-                    <b>Request a free 30-minute consultation.</b>
+                    
+                <a href="#contact"><b>Request a free 30-minute consultation.</b></a>
+        
                   </i>
                 </h3>
               </div>
@@ -228,29 +230,33 @@ function HomePage() {
                   class="glyphicon glyphicon-chevron-right"
                   aria-hidden="true"
                 ></span>
-                Private English Tuition for neurotypical students <br />
+                {" "}Private English Tuition for neurotypical students <br />
                 <br />
                 <span
                   class="glyphicon glyphicon-chevron-right"
                   aria-hidden="true"
                 ></span>
-                Private English Tuition for SEN students <br />
+                {" "}Private English Tuition for SEN students <br />
                 <br />
                 <span
                   class="glyphicon glyphicon-chevron-right"
                   aria-hidden="true"
                 ></span>
-                CV or Cover Letter creation <br />
+                {" "}CV or Cover Letter creation <br />
                 <br />
                 <span
                   class="glyphicon glyphicon-chevron-right"
                   aria-hidden="true"
                 ></span>
-                Course application advice and guidance <br />
+                {" "}Course application advice and guidance <br />
                 <br />
                 <i>
-                  Each service is charged at an hourly rate – please contact me
-                  for further details
+                
+                <a href="#contact"><b>Each service is charged at an hourly rate – please contact me
+                  for further details</b></a>
+                
+                
+                  
                 </i>
               </p>
             </div>
@@ -261,8 +267,10 @@ function HomePage() {
         
         <section id="testimonials" className="bg-light-gray">
           <div className="container">
+    <div className=" text-center">
             <h2 className="section-heading">What my clients say...</h2>
-
+             <p className="squiggle">~</p>
+      </div>
             <div className="jumbotron text-center blue-grey lighten-5">
              
               <h2 className="card-title h2">David, Bristol</h2>

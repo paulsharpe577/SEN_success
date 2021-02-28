@@ -22,7 +22,7 @@ class Footer extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/sensuccess.co.uk">
+                      <a href="https://www.facebook.com/sensuccess.uk">
                         <i className="fa fa-facebook" />
                       </a>
                     </li>

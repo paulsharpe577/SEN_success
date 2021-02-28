@@ -29,6 +29,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+ 
 }
 
 a {
@@ -227,7 +228,18 @@ fieldset[disabled] .btn-xl.active {
     background-color: #17d0d5;
 }
 
+.page-scroll:hover {
+    color: white !important;
+}
+
 @media(min-width:768px) {
+    
+     .logo{
+  width: 10%;
+  height: auto;
+    }
+    
+    
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -275,7 +287,6 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 100px;
     margin-bottom: 200px;
     text-align: left;
 }
@@ -299,9 +310,9 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
     }
+    
+ 
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -426,6 +437,13 @@ section h3.section-subheading {
 }
 
 @media(min-width:767px) {
+.logo{
+  width: 40%;
+  height: auto;
+    }
+    
+    
+    
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -563,6 +581,10 @@ section h3.section-subheading {
 
 
 @media(min-width:768px) {
+    
+
+    
+    
     .timeline:before {
         left: 50%;
         bottom: 260px;
@@ -601,6 +623,13 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+    
+         .logo{
+  width: 40%;
+  height: auto;
+    }
+ 
+    
     .timeline>li {
         min-height: 150px;
     }
@@ -624,9 +653,18 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+    
+
 }
 
 @media(min-width:1200px) {
+    
+         .logo{
+  width:45%;
+  height:auto;
+  
+    }
+    
     .timeline>li {
         min-height: 170px;
     }
@@ -677,10 +715,13 @@ section#contact {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 15px;
+    
 }
 
 section#contact .section-heading {
     color: #fff;
+    padding-bottom: 20px;
 }
 
 section#contact .form-group {
@@ -962,4 +1003,25 @@ ul.social-network {
 
 #about{
 padding-bottom: 40px;
+}
+
+#testimonials {
+    margin-bottom: 40px;
+}
+
+#next-step{
+    text-decoration: underline;
+}
+
+#contactus{
+    padding-bottom: 40px;
+}
+
+#success-div{
+    padding-bottom: 35px;
+}
+
+#submit-button{
+    font-size: 20px;
+    font-weight: bold;
 }

@@ -29,11 +29,11 @@ export default function ContactUs() {
     <section id="contact">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center">
-            <h2 className="section-heading">Contact Us</h2>
+          <div id="contactus" className="col-lg-12 text-center">
+            <h2 className="section-heading">Contact</h2>
             <h3>
               <i>
-                <b>Request a free 30-minute consultation.</b>
+                <b>Request a free 30-minute consultation</b>
               </i>
             </h3>
           </div>
@@ -100,9 +100,9 @@ export default function ContactUs() {
                   </div>
                 </div>
                 <div className="clearfix" />
-                <div className="col-lg-12 text-center">
+                <div id="success-div" className="col-lg-12 text-center">
                   <div id="success" />
-                  <button type="submit" value="Send" className="btn btn-xl">
+                  <button id="submit-button" type="submit" value="Send" className="btn btn-xl">
                     Send Message
                   </button>
                 </div>
