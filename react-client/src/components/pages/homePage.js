@@ -14,7 +14,7 @@ function HomePage() {
             <div className="intro-text">
               <div className="intro-heading"><img className="logo" src="https://i.postimg.cc/7LSjQ0Xh/IMG-0022.png" alt="" width="250" height="250" /></div>
               <div className="intro-lead-in">
-                Empowering you to take the next step post secondary education
+                Empowering your child to take the next step post secondary education
               </div>
             </div>
           </div>
@@ -35,11 +35,12 @@ function HomePage() {
             <div className="row text-center">
               <div className="col-lg-12 text-center">
                 <p className="text-muted">
-                  Choosing the next step for an SEN child post secondary
-                  education is an important and sensitive time. However, making
-                  this choice is far from easy. Are you confused about which
-                  step to take? Does your research only turn up a small number
-                  of branded establishments? Exhausted by EHCP bureaucracy and
+                  Choosing the next step for a Special Educational Needs (SEN) 
+                  child post secondary education is an important and sensitive 
+                  time. However, making this choice is far from easy. Are you 
+                  confused about which step to take? Does your research only 
+                  turn up a small number of branded establishments? Exhausted 
+                  by Education and Health Care Plan (EHCP) bureaucracy and
                   worried about your child’s future?
                 </p>
                 <p className="text-muted">
